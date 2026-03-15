@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
+import templeLogo from '../../assets/logo/Logo_1.png';
 
 export function Footer() {
   return (
@@ -9,9 +10,11 @@ export function Footer() {
           {/* Temple Info */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-[#FF7A00] to-[#8B0000] rounded-full flex items-center justify-center">
-                <span className="text-white text-xl font-bold" style={{ fontFamily: 'var(--font-heading)' }}>॥</span>
-              </div>
+              <img 
+                src={templeLogo} 
+                alt="Sri Ramalayam Temple Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <div className="text-lg font-semibold" style={{ fontFamily: 'var(--font-heading)' }}>
                   Sri Ramalayam
