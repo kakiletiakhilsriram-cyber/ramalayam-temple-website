@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import templeLogo from '../../assets/logo/Logo_1.png';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +25,11 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-[#FF7A00] to-[#8B0000] rounded-full flex items-center justify-center">
-              <span className="text-white text-xl font-bold" style={{ fontFamily: 'var(--font-heading)' }}>॥</span>
-            </div>
+             <img 
+              src={templeLogo} 
+              alt="Sri Ramalayam Temple Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <div className="text-xl font-semibold text-[#222222]" style={{ fontFamily: 'var(--font-heading)' }}>
                 Ramalayam(రామాలయం)
