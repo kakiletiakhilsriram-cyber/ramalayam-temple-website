@@ -133,7 +133,7 @@ export function Sevas() {
       driveLink:
         "https://drive.google.com/drive/folders/1UJOBg9ksXfRyE3I77O1bcczf_vm4IecZ",
       thumbnail:
-        "https://telugu.hindutone.com/wp-content/uploads/2025/11/Ksheerabdi-Dwadashi-%E2%80%93-The-Divine-Union-of-Lakshmi-Narayana.jpg",
+        "https://www.epoojastore.com/articles/image/data/kathika%20Masam%20Special/karthika-suddha-ekadashi.jpg",
     },
   ];
 
